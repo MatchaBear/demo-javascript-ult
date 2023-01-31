@@ -17,4 +17,13 @@ form.addEventListener('submit', (event) => {
 
 */
 
-const form = document.querySelector('#lawn-info')
+const form = document.querySelector('#lawn-info');
+const scheduleDiv = document.querySelector('#schedule');
+console.log(scheduleDiv)
+form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const lawnSize = parseInt(document.querySelector('#lawn-size').value);
+    const schedule = `Your lawn should be mowed every ${mowInterval} weeks.`;
+    scheduleDiv.textContent = schedule;
+}
+);
