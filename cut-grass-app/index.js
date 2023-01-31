@@ -13,4 +13,4 @@ const atmosphere = [
   "Polluted water",
 ];
 
-function illumination()
+function illumination() {}
