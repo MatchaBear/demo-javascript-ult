@@ -15,7 +15,7 @@ form.addEventListener('submit', (event) => {
   scheduleDiv.textContent = schedule;
 });
 
-*/
+
 
 const form = document.querySelector('#lawn-info');
 const scheduleDiv = document.querySelector('#schedule');
@@ -27,3 +27,12 @@ form.addEventListener('submit', (event) => {
     scheduleDiv.textContent = schedule;
 }
 );
+
+*/
+
+function weatherBestTime (temperature, humidity, rainfall)
+
+function lawnSizeCalculation (mowingTime, fuelConsumption)
+
+function wateringSchedule (isHydrated)
+
