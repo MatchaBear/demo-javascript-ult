@@ -19,3 +19,15 @@ footer {
   background-color: lightgray;
   padding: 10px;
 }
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  text-align: center;
+}
